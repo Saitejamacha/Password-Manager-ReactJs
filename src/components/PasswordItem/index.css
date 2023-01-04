@@ -1,0 +1,66 @@
+/* Sai Teja's Code */
+
+.list-item {
+  list-style-type: none;
+  color: white;
+  border: 2px solid #94a3b8;
+  width: 17vw;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.initial {
+  background-color: rgb(134, 221, 134);
+  width: 75px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 15px;
+}
+.card-con {
+  width: 15vw;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10px;
+}
+p {
+  margin: 2px;
+}
+
+.stars {
+  width: 8vw;
+}
+.del-icon {
+  width: 30px;
+  height: 30px;
+}
+.del-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+@media (max-width: 768px) {
+  .list-item {
+    list-style-type: none;
+    color: white;
+    border: 2px solid #94a3b8;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .stars {
+    width: 100px;
+  }
+}

@@ -1,0 +1,479 @@
+/* Sai Teja's Code */
+
+.bg-con {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: cambria;
+}
+.img-size {
+  width: 15vw;
+  height: 10vh;
+  align-self: flex-start;
+  margin: 20px;
+  margin-left: 15vw;
+}
+
+.all-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-con {
+  width: 70vw;
+  height: 65vh;
+  background-color: #5763a5;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.top-sub-con {
+  width: 70vw;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-items {
+  width: 25vw;
+  height: 53vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #454f84;
+  border-radius: 10px;
+}
+.head {
+  color: white;
+  font-family: roboto;
+  font-size: 22px;
+  align-self: flex-start;
+  margin-left: 40px;
+  font-family: cambria;
+}
+.input-img-con {
+  height: 45px;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+.web-logo {
+  width: 30px;
+  height: 30px;
+}
+input {
+  background-color: transparent;
+  height: 45px;
+  width: 20vw;
+  border-radius: 4px;
+  outline: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 17px;
+  padding-left: 10px;
+  border: 2px solid grey;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 1px solid grey;
+  border-right-width: 0px;
+  margin-left: 10px;
+}
+.add-Btn {
+  width: 70px;
+  height: 40px;
+  color: white;
+  background-color: #0b69ff;
+  align-self: flex-end;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  margin: 20px;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+.pass-image {
+  background-size: cover;
+  width: 25vw;
+  height: 55vh;
+}
+
+.bottom-con {
+  width: 70vw;
+  min-height: 65vh;
+  background-color: #5763a5;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.empty-pswd-con {
+  width: 60vw;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords-img {
+  width: 35vw;
+  height: 40vh;
+}
+.no-pswd-para {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+.bottom-top-con {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.pass-count-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count-para {
+  margin-left: 20px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-password-con {
+  width: 60vw;
+  min-height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.show-pass-text {
+  color: white;
+  font-size: 18px;
+}
+.check-box {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.un-list-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .bg-con {
+    background-image: linear-gradient(#9ba9eb, #c3caea);
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: cambria;
+    align-items: center;
+  }
+  .all-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .img-size {
+    width: 40vw;
+    height: 10vh;
+    margin-left: 115px;
+  }
+  .top-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88vw;
+    height: 105vh;
+    background-color: #5763a5;
+    border-radius: 10px;
+  }
+  .top-sub-con {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+  }
+  .pass-image {
+    display: none;
+    background-size: cover;
+    width: 50vw;
+  }
+  .render-sm-img {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png');
+    width: 80vw;
+    height: 45vh;
+    background-size: cover;
+    justify-self: center;
+    margin-bottom: 10px;
+  }
+  .form-items {
+    width: 82vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #454f84;
+    border-radius: 10px;
+    order: 1;
+  }
+
+  @media (min-width: 1000px) and (max-width: 1200px) {
+    .render-sm-img {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/password-manager-sm-img.png');
+      width: 80vw;
+      height: 60vh;
+      background-size: cover;
+      justify-self: center;
+      margin-bottom: 10px;
+    }
+    .form-items {
+      width: 82vw;
+      height: 38vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #454f84;
+      border-radius: 10px;
+      order: 1;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: aqua;
+    }
+
+    .bottom-top-con {
+      width: 88vw;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+    }
+  }
+  .input-img-con {
+    height: 45px;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+  }
+  .web-logo {
+    width: 30px;
+    height: 30px;
+  }
+  input {
+    background-color: transparent;
+    height: 45px;
+    width: 70vw;
+    border-radius: 4px;
+    outline: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 2px solid grey;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px solid grey;
+    border-right-width: 0px;
+    margin-left: 10px;
+  }
+  .bottom-con {
+    width: 88vw;
+    min-height: 75vh;
+    background-color: #5763a5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .add-Btn {
+    width: 70px;
+    height: 40px;
+    color: white;
+    background-color: #0b69ff;
+    align-self: flex-end;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    margin: 20px;
+    border-radius: 5px;
+    margin-right: 40px;
+    font-size: 15px;
+  }
+
+  .show-pass-text {
+    color: white;
+    font-size: 15px;
+  }
+
+  .bottom-top-con {
+    width: 88vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .bottom-head {
+    font-size: 15px;
+    width: 30vw;
+    height: 75px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: -10px;
+  }
+  .input-img-con1 {
+    height: 45px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .input-search {
+    background-color: transparent;
+    height: 45px;
+    width: 30vw;
+    border-radius: 4px;
+    outline: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-size: 17px;
+    padding-left: 10px;
+    border: 2px solid grey;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px solid grey;
+    border-right-width: 0px;
+    margin-left: 10px;
+  }
+  .pass-count-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .count-para {
+    margin-left: 20px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .show-password-con {
+    width: 60vw;
+    min-height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .show-pass-text {
+    color: white;
+    font-size: 18px;
+  }
+  .check-box {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .un-list-items {
+    width: 88vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -35px;
+  }
+
+  .empty-pswd-con {
+    width: 88vw;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-passwords-img {
+    width: 70vw;
+    height: 40vh;
+    margin-left: -35px;
+  }
+  .no-pswd-para {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: -35px;
+  }
+  .pass-count-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .count-para {
+    margin-left: 20px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
